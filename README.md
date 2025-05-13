@@ -66,3 +66,5 @@ This GitHub repository is organized according to the following directories and f
 	- _chem-400-1-C_ subfolder: experiment with application of the optimized taxotere.
 
 ## Cite as
+
+Naozuka, G.T.; Lima, E.A.B.F.; Almeida, R.C. Hybrid Modeling Framework, 2025. Version 1.0. Available online: [https://github.com/tmglncc/Hybrid_Modeling_Framework](https://github.com/tmglncc/Hybrid_Modeling_Framework) (accessed on 13 May 2025), doi: [10.5281/zenodo.10569158](https://doi.org/10.5281/zenodo.15399549)
