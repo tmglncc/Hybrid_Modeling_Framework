@@ -27,20 +27,20 @@ To run the optimal control solver, please follow the instructions below:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**OR**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Download the _.zip_ file and decompress it.
 
-3. Enter the _Optimal Control_ folder.
+2. Enter the _Optimal Control_ folder.
 
-2. Enter the directory of the experiment you would like to run:
+3. Enter the directory of the experiment you would like to run:
    - _chem-400-1-B_: experiment with application of cisplatin after _t = 400_ h;
    - _chem-400-1-C_: experiment with application of taxotere after _t = 400_ h; or
    - _no-chem_: experiment with the application of any drug after _t = 400_ h.
   
-3. Run the Python script, for example:
+4. Run the Python script, for example:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ python3 direct_multiple_shooting.py`
 
-Notice that the Python script filename may be different for different experiments.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice that the Python script filename may be different for different experiments.
 
-4. Check out the results.
+5. Check out the results.
 
 ## Repository organization
 
