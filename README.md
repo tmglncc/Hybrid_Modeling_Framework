@@ -32,7 +32,7 @@ To run the optimal control solver, please follow the instructions below:
 3. Enter the directory of the experiment you would like to run:
    - _chem-400-1-B_: experiment with application of cisplatin after _t = 400_ h;
    - _chem-400-1-C_: experiment with application of taxotere after _t = 400_ h; or
-   - _no-chem_: experiment with the application of any drug after _t = 400_ h.
+   - _no-chem_: experiment with application of any drug after _t = 400_ h.
   
 4. Run the Python script, for example:
 
@@ -48,8 +48,8 @@ This GitHub repository is organized according to the following directories and f
 
 - **Hybrid Multiscale Model** folder: contains the experiments that implement a hybrid multiscale model for tumor growth with chemotherapy.
 
-	- _chem-400-1-B_ subfolder: experiment with application of cisplatin at t = 400 h;
-	- _chem-400-1-C_ subfolder: experiment with application of taxotere at t = 400 h;
+	- _chem-400-1-B_ subfolder: experiment with application of cisplatin at _t = 400_ h;
+	- _chem-400-1-C_ subfolder: experiment with application of taxotere at _t = 400_ h;
 	- _no-chem_ subfolder: control experiment.
 
  - **Low-Fidelity Surrogate Model** folder: contains the Python scripts that implement the SINDy-SA framework to identify a low-fidelity surrogate model from simulated data of the high-fidelity hybrid multiscale model.
@@ -58,7 +58,7 @@ This GitHub repository is organized according to the following directories and f
 
 	- _chem-400-1-B_ subfolder: experiment with application of cisplatin after _t = 400_ h;
 	- _chem-400-1-C_ subfolder: experiment with application of taxotere after _t = 400_ h;
-	- _no-chem_ subfolder: experiment with the application of any drug after _t = 400_ h.
+	- _no-chem_ subfolder: experiment with application of any drug after _t = 400_ h.
 
  - **Hybrid Multiscale Model with Optimal Control** folder: contains the experiments that implement the hybrid multiscale model for tumor growth using the optimal chemotherapy administration protocol.
 
